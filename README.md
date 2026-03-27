@@ -27,4 +27,9 @@ f"{variavel}" -> Insere variáveis dentro de uma string
 ## Estrutura de repetição
 ``if (se)`` -> Verifica se uma condição é true (verdadeira). Se for, ele executa o código
 ``elif (senão se)`` -> Usado para testar várias condições. Ele só executa se todas as condições anteriores forem false (falsas)
-``else (senão)`` -> Executa o código se a condição if for false (falso)
+``else (senão)`` -> Executa o código se a condição if for false (falsa)
+
+## Boas Práticas
+1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o camemlCase
+2. Se vocÊ observar alguma estrutura tipo nome(), 90% de chance de ser uma função
+3. Python não tem constante, porém utilizamos o padrão case UPPERCASE para simular que aquela variável não pode ser alterada

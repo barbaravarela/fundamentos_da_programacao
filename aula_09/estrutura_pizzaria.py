@@ -1,4 +1,5 @@
 # Variáveis da pizzaria
+FRETE = 2 #Constante fake (escrever tudo em caps lock)
 pizza_sabor = input("Informe o sabor da pizza - [frango com requeijão], [calabresa], [mussarela], [banana com chocolate]: ")
 pizza_tamanho = input("Informe o tamanho da pizza - [pequena], [média], [grande]: ")
 dia_semana = input("Informe o dia da semana - [quarta], [quinta], [sexta], [sábado], [domingo]: ")
