@@ -29,6 +29,11 @@ f"{variavel}" -> Insere variáveis dentro de uma string
 ``elif (senão se)`` -> Usado para testar várias condições. Ele só executa se todas as condições anteriores forem false (falsas)
 ``else (senão)`` -> Executa o código se a condição if for false (falsa)
 
+## Conversão de tipos em python
+1. int() -> A gente vai incluir qual variável/dado que queremos converter para número inteiro.
+2. float() -> A gente vai incluir qual variável/dado que queremos converter para número decimal.
+3. str() -> A gente vai incluir qual variável/dado que queremos converter para texto.
+
 ## Boas Práticas
 1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o camemlCase
 2. Se vocÊ observar alguma estrutura tipo nome(), 90% de chance de ser uma função
