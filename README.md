@@ -24,10 +24,35 @@ not -> Ele altera o valor booleano da condição.
 ## Format em python
 f"{variavel}" -> Insere variáveis dentro de uma string
 
-## Estrutura de repetição
+## Estrutura condicional
 ``if (se)`` -> Verifica se uma condição é true (verdadeira). Se for, ele executa o código
 ``elif (senão se)`` -> Usado para testar várias condições. Ele só executa se todas as condições anteriores forem false (falsas)
 ``else (senão)`` -> Executa o código se a condição if for false (falsa)
+
+## Laços de repetição
+
+É um recurso de programação que permite executar um conjunto de comando várias vezes. Também são chamados de Loop ou Laços de iteração
+
+``FOR`` -> uilizamos quando sabemos quantas vezes queremos repetir algo.
+Sintaxe padrão:
+for variavel in range(inicio,fim):
+    comandos
+[range()] -> Método que aceita geração de números.
+[inicio] -> É inclusivo. É o primeiro número a ser usado.
+[fim] -> É exclusivo. O número utilizado é o anterior a esse.
+
+### Escopo das Variáveis
+``Escopo Local`` -> A variável só é acessada dentro da estrutura na qual ele foi criada.
+``Escopo Global`` -> A variável pode ser acessada por todo mundo.
+
+### Variações das Variáveis
+Variável em memória -> É declarada quando você não pretende utilizar essa variável em outros cenários.
+Variável contadora -> É utilizada para uma lógica onde a repetição irá ser alterada.
+
+``WHILE`` -> É usado quando não sabemos quantas vezes o progrma vai repetir. Ele repete enquanto um condição for verdadeira.
+Sintaxe padrão:
+while condicao:
+    comandos
 
 ## Conversão de tipos em python
 1. int() -> A gente vai incluir qual variável/dado que queremos converter para número inteiro.
