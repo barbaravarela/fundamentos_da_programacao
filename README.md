@@ -20,6 +20,9 @@ not -> Ele altera o valor booleano da condição.
 ## Métodos em python
 1. print() -> Exibe informações no terminal
 2. input() -> Captura uma informação do terminal.
+3. lower() -> converte toda a string em minúscula
+4. upper() -> converte toda a string em maiúscula
+5. isdigit() -> verifica se a variável contém número
 
 ## Format em python
 f"{variavel}" -> Insere variáveis dentro de uma string
