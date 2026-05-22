@@ -66,3 +66,8 @@ while condicao:
 1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o camemlCase
 2. Se vocÊ observar alguma estrutura tipo nome(), 90% de chance de ser uma função
 3. Python não tem constante, porém utilizamos o padrão case UPPERCASE para simular que aquela variável não pode ser alterada
+
+## Funções em Python
+``def`` -> Define que uma função será declarada
+``propriedade`` -> Variável em memória que irá receber um argumento
+``argumento`` -> Valor que irá preencher o espaço da propriedade
